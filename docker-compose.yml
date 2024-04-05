@@ -2,6 +2,7 @@ version: '3'
 services:
   
   backend:
+    image: vishalrajput0502/flaskapp:latest
     build:
       context: .
     ports:
